@@ -1,0 +1,61 @@
+/* DOCUMENTO CSS */
+
+body {
+	margin:0 ;
+	padding:0 ;
+	border: 0 ;
+}
+header {
+	
+	background-color: #DFEBF2;
+	height: 100px ;
+	padding-top: 25px ;
+	color: #736156;
+	text-align: center;
+}
+main {
+	margin:0 ;
+	padding:0 ;
+	display: flex;
+	justify-content: center ;
+	flex-wrap: wrap;
+}
+.box {width:200px ;
+	height:320px ;
+	background-color:#99B4BF;
+	border-radius: 20px;
+	padding: 10px;
+	color: #736156;
+	text-align: center;
+	margin: 20px;
+	transition: 1s;
+	overflow: hidden;
+
+}
+.box:hover{
+	box-shadow: 9px 9px 10px #a4a4a4;
+}
+
+	.box h2{margin:0 0 10px 20;
+		padding: 0;
+
+	}
+	.box figure {width: 200px;
+		height: 180px;
+		background-color: #e6e6e6;
+		margin: 0 0 40px 0;
+		padding: 0;
+
+	}
+	.box p { margin: 20px 0 0 0;
+
+	}
+	footer {
+		background-color: #cf97a0;
+		height: 70px;
+		padding-top: 20px;
+		color: darkred;
+		text-align: center;
+
+	}
+
